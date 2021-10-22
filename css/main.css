@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(48, 38, 38);
+  width: 100%;
+}
+
+#tetrisgame {
+  height: 600px;
+  width: 400px;
+  background-color: black;
+}
+#gamediv {
+  align-content: center;
+  align-self: center;
+  background-color: rgb(49, 187, 187);
+  padding: 10px;
+  margin: 10px;
+  float: left;
+}
+#nextpiece {
+  height: 400px;
+  width: 100px;
+  background-color: black;
+}
+#container {
+  flex-shrink: initial;
+  flex-direction: row;
+}
+
+#nextpiececontainer {
+  align-content: center;
+  align-self: center;
+  background-color: rgb(49, 187, 187);
+  padding: 10px;
+  margin: 10px;
+  float: left;
+}
+
+#savecanvas {
+  height: 150px;
+  width: 100px;
+  background-color: black;
+}
+
+#savepiececontainer {
+  align-content: center;
+  align-self: center;
+  background-color: rgb(49, 187, 187);
+  padding: 10px;
+  margin: 10px;
+  float: left;
+}
